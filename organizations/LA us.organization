@@ -51,6 +51,7 @@
       <displayName>Titular</displayName>
       <description>Es el profesor que manda basicamente</description>
     </role>
+<<<<<<< HEAD
     <role name="Rol1">
       <displayName>TOLES</displayName>
       <description>sfdd</description>
@@ -70,6 +71,18 @@
     <group name="Jefes">
       <displayName>Jefes</displayName>
       <description>Son los jefes del proyecto
+=======
+  </roles>
+  <groups>
+    <group name="Profesors">
+      <displayName>Profesores</displayName>
+      <description>Grupo de los profesores
+</description>
+    </group>
+    <group name="Alumnos">
+      <displayName>Alumnos</displayName>
+      <description>Somos los alumnos de la asignatura
+>>>>>>> branch 'master' of https://github.com/borjaalba/SieLabs.git
 </description>
     </group>
   </groups>
