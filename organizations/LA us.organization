@@ -51,6 +51,11 @@
       <displayName>Titular</displayName>
       <description>Es el profesor que manda basicamente</description>
     </role>
+    <role name="Rol1">
+      <displayName>TOLES</displayName>
+      <description>sfddsf
+</description>
+    </role>
   </roles>
   <groups>
     <group name="Profesors">
