@@ -63,6 +63,11 @@
       <description>Somos los alumnos de la asignatura
 </description>
     </group>
+    <group name="Jefes">
+      <displayName>Jefes</displayName>
+      <description>Son los jefes del proyecto
+</description>
+    </group>
   </groups>
   <memberships>
     <membership>
