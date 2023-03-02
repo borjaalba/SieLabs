@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.0">
+    <businessObjects>
+        <businessObject qualifiedName="company.model.Asignaturas">
+            <fields>
+                <field type="STRING" length="255" name="si" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="profesorImparte" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="creditos" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="company.model.Personal">
+            <fields>
+                <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="edad" nullable="true" collection="false">
+                    <description>La edad del maquina</description>
+                </field>
+                <field type="STRING" length="255" name="correo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaNacimiento" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="LA us" description="Organizacion de SIE para las practicas&#xA;">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="fraalbolm">
+      <firstName>Jose</firstName>
+      <lastName>Dominguez Luque</lastName>
+      <title>Sr</title>
+      <jobTitle>Director</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>jose@gmail.com.us.es</email>
+        <phoneNumber>663517671</phoneNumber>
+        <faxNumber>881219921</faxNumber>
+        <building>A</building>
+        <room>&amp;</room>
+        <address>51 federal district</address>
+        <zipCode>94107</zipCode>
+        <city>San Francisco</city>
+        <state>Estado</state>
+        <country>Estados Unidos</country>
+        <website>http://bonitasoft.com</website>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Usuario1">
+      <firstName>Berto</firstName>
+      <lastName>Berto</lastName>
+      <title>Sr</title>
+      <jobTitle>Director de la UGT</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>berto@gmail.com</email>
+        <phoneNumber>77777777777</phoneNumber>
+        <building>A</building>
+        <room>6</room>
+        <address>distrito federal de wisconsin</address>
+        <zipCode>94107</zipCode>
+        <city>San Francisco</city>
+        <state>Estado</state>
+        <country>Estados Unidos</country>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Profesor Titular">
+      <displayName>Titular</displayName>
+      <description>Es el profesor que manda basicamente</description>
+    </role>
+  </roles>
+  <groups>
+    <group name="Profesors">
+      <displayName>Profesores</displayName>
+      <description>Grupo de los profesores
+</description>
+    </group>
+    <group name="Alumnos">
+      <displayName>Alumnos</displayName>
+      <description>Somos los alumnos de la asignatura
+</description>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>fraalbolm</userName>
+      <roleName>Profesor Titular</roleName>
+      <groupName>Profesors</groupName>
+    </membership>
+    <membership>
+      <userName>Usuario1</userName>
+      <roleName>Profesor Titular</roleName>
+      <groupName>Alumnos</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
