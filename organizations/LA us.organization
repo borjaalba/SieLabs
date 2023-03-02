@@ -53,9 +53,7 @@
     </role>
     <role name="Rol1">
       <displayName>TOLES</displayName>
-      <description>sfdds
-
-</description>
+      <description>sfdd</description>
     </role>
   </roles>
   <groups>
