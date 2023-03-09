@@ -554,6 +554,9 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
+    <role name="validador">
+      <displayName>Rol1</displayName>
+    </role>
   </roles>
   <groups>
     <group name="acme">
@@ -623,7 +626,7 @@
     </membership>
     <membership>
       <userName>helen.kelly</userName>
-      <roleName>member</roleName>
+      <roleName>validador</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
