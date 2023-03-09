@@ -8,7 +8,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vzeY1LkfEe2DPNzYzaWMmA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vzeY1bkfEe2DPNzYzaWMmA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_vzeY1rkfEe2DPNzYzaWMmA" name="Haz tal tarea juan" incoming="_vzeY57kfEe2DPNzYzaWMmA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_vzeY1rkfEe2DPNzYzaWMmA" name="Haz tal tarea juan" incoming="_vzeY57kfEe2DPNzYzaWMmA" actor="_YfPr0L6aEe2cGLIpInGsMQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vzeY17kfEe2DPNzYzaWMmA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vzeY2LkfEe2DPNzYzaWMmA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vzeY2bkfEe2DPNzYzaWMmA" name="" content="" returnTypeFixed="true"/>
@@ -58,7 +58,9 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_VLsMcbkgEe2DPNzYzaWMmA"/>
         <condition xmi:type="expression:Expression" xmi:id="_VLsMcrkgEe2DPNzYzaWMmA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_vzeY6rkfEe2DPNzYzaWMmA" documentation="Este es un ejemplo de actor que está mapeado a cualquier usuario de la organización ACME" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_vzeY6rkfEe2DPNzYzaWMmA" documentation="Este es un ejemplo de actor que está mapeado a cualquier usuario de la organización ACME" name="Employee actor"/>
+      <actors xmi:type="process:Actor" xmi:id="_Iq1-8L6aEe2cGLIpInGsMQ" name="walter.bates"/>
+      <actors xmi:type="process:Actor" xmi:id="_YfPr0L6aEe2cGLIpInGsMQ" documentation="Es juanito el que inicia&#xA;" name="Juanito Gafotas Horramendi" initiator="true"/>
       <contract xmi:type="process:Contract" xmi:id="_vzeY67kfEe2DPNzYzaWMmA"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_vzeY7LkfEe2DPNzYzaWMmA">
         <name xmi:type="expression:Expression" xmi:id="_vzeY7bkfEe2DPNzYzaWMmA" content="" returnTypeFixed="true"/>
